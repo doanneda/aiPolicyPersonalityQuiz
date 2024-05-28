@@ -11,6 +11,10 @@
 		BDA1DB342C054D2800974D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1DB332C054D2800974D66 /* ContentView.swift */; };
 		BDA1DB362C054D2A00974D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA1DB352C054D2A00974D66 /* Assets.xcassets */; };
 		BDA1DB392C054D2A00974D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA1DB382C054D2A00974D66 /* Preview Assets.xcassets */; };
+		BDA1DB402C05527F00974D66 /* questionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1DB3F2C05527F00974D66 /* questionOne.swift */; };
+		BDA1DB422C05844D00974D66 /* questionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1DB412C05844D00974D66 /* questionTwo.swift */; };
+		BDA1DB442C0587CB00974D66 /* questionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1DB432C0587CB00974D66 /* questionThree.swift */; };
+		BDA1DB462C05885900974D66 /* results.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1DB452C05885900974D66 /* results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BDA1DB332C054D2800974D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA1DB352C054D2A00974D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA1DB382C054D2A00974D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDA1DB3F2C05527F00974D66 /* questionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionOne.swift; sourceTree = "<group>"; };
+		BDA1DB412C05844D00974D66 /* questionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTwo.swift; sourceTree = "<group>"; };
+		BDA1DB432C0587CB00974D66 /* questionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionThree.swift; sourceTree = "<group>"; };
+		BDA1DB452C05885900974D66 /* results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BDA1DB312C054D2800974D66 /* aiPolicyPersonalityQuizApp.swift */,
 				BDA1DB332C054D2800974D66 /* ContentView.swift */,
+				BDA1DB3F2C05527F00974D66 /* questionOne.swift */,
+				BDA1DB412C05844D00974D66 /* questionTwo.swift */,
+				BDA1DB432C0587CB00974D66 /* questionThree.swift */,
+				BDA1DB452C05885900974D66 /* results.swift */,
 				BDA1DB352C054D2A00974D66 /* Assets.xcassets */,
 				BDA1DB372C054D2A00974D66 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA1DB442C0587CB00974D66 /* questionThree.swift in Sources */,
 				BDA1DB342C054D2800974D66 /* ContentView.swift in Sources */,
 				BDA1DB322C054D2800974D66 /* aiPolicyPersonalityQuizApp.swift in Sources */,
+				BDA1DB422C05844D00974D66 /* questionTwo.swift in Sources */,
+				BDA1DB462C05885900974D66 /* results.swift in Sources */,
+				BDA1DB402C05527F00974D66 /* questionOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
